@@ -1,0 +1,27 @@
+<div class="container">
+    <button class="btn-tambah" mat-raised-button color="primary" (click)="buatData()">Add Data</button>
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Book List</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-list>
+          <mat-list-item>
+            <img matListAvatar src="assets/book-png-transparent-4.png" alt="...">
+            <h3 matLine><b> The Art of Logical Thinking </b></h3>
+            <p matLine>
+              <span><i> "Seni Berpikir Logis" </i></span>
+            </p>
+            <p matLine>
+              <span> Self-Improvement </span>
+            </p>
+            <p matLine>
+                <span> William Atkinson </span>
+            </p>
+            <button class="btn-edit" mat-raised-button color="accent">Edit</button>
+            <button class="btn-selesai" mat-raised-button color="warn">Done</button>
+          </mat-list-item>
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
+  </div>
